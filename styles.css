@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+header img{
+    max-width: 100px; /* Establece un ancho máximo para el logo */
+    height: 0 auto ; /* Permite que la altura se ajuste automáticamente según el ancho */
+    margin: 0 auto; /* Centra horizontalmente el logo */
+    display: block; /* Asegura que el logo sea tratado como un bloque */
+    margin-right: 700px;
+    margin-left: 100px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos específicos */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #000000;
+}
+
+.button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1d81c4;
+    padding: 20px 0;
+    text-align: center;
+}
